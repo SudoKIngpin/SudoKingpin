@@ -10,7 +10,7 @@ def index():
 def contact():
     return render_template('contact.html')
 
-@app.route('/robots')
+@app.route('/robots.txt')
 
 def robot():
     return render_template('/static/robots.txt')
