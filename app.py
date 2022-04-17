@@ -6,4 +6,4 @@ app=Flask(__name__)
 def index():
     return render_template("index.html")
 
-app.run(port=8000,debug=False)
+app.run(port=33900,debug=False)
