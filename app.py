@@ -18,6 +18,6 @@ def robot():
 
 def magic():
     return render_template('button.htm')
-app.run(debug=True)
+# app.run(debug=True)
 
 
