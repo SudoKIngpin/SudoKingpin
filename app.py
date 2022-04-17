@@ -11,9 +11,8 @@ def contact():
     return render_template('contact.html')
 
 @app.route('/robots.txt')
-
 def robot():
-    return render_template('/static/robots.txt')
+    return render_template('/robots.txt')
 
 @app.route('/magic')
 
